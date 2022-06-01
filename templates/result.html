@@ -1,0 +1,78 @@
+{% if result == "Alligator" %}
+<h3>Alligator Crack</h3>
+<ol>
+ <li>Causes : </li>
+  <ol>
+     <li>Excessive deflection of pavement surface normally in wheel paths.</li>
+     <li>Inadequate pavement thickness.</li>
+     <li>Weakening of subgrade or lower layers of the pavement due to ingress of excessive
+moisture to pavement and saturation.</li>
+      <li>Overloading of heavy commercial vehicles.</li>
+      <li>Brittleness of binder due to ageing of binder and lowering of surface temperature due to weather conditions.</li>
+  <li>Stripping of underlying bituminous courses</li>
+ </ol>
+</li>
+<li>Treatment:</li>
+  <ol>
+     <li>Crack sealing by bitumen emulsions</li>
+     <li>Crack sealing by rubberized and modified bitumen</li>
+     <li>Milling and surface recycling</li>
+ </ol>
+</ol>
+{% elif result == "Longitudinal" %}
+<h3>Longitudinal Crack</h3>
+<ol>
+<li>Causes : </li>
+ <ol>
+ <li>Caused by alternate wetting and drying beneath the shoulder surface or by improper/weak joints
+between adjoining layers of pavement.</li>
+ </ol>
+</li>
+<li>Treatment:</li>
+ <ol>
+    <li>Low and medium Severity Cracks: Crack sealing, preferably using rubberised bitumen</li>
+    <li>High Severity Cracks: Remove and replace the cracked pavement layer with fresh overlay.</li>
+ </ol>
+</ol>
+{% elif result == "Ravelling" %}
+<h3>Ravelling</h3>
+<ol>
+ <li>Causes : </li>
+  <ol>
+      <li>Inadequate bitumen content in a mix</li>
+      <li>Overheating of bitumen during mixing process</li>
+      <li>Inadequate compaction during construction</li>
+      <li>Excessive ageing of binder.</li>
+
+ </ol>
+</li>
+<li>Treatment:</li>
+ <ol>
+     <li>Low severity ravelling: The low severity ravelling may be corrected by application of
+fog seal,sand seal, seal coat, slurry seal or microsurfacing</li>
+     <li>Medium severity ravelling: This may be corrected by application of seal coat, slurry
+seal or micro surfacing treatment in affected area</li>
+     <li>High severity ravelling: May be corrected by single or multiple applications of liquid
+seal coat, slurry seal, microsurfacing and surfacing of thin overlay of appropriate mix specification
+like
+mix seal surfacing or open graded premix carpet.</li>
+ </ol>
+</ol>
+{% elif result == 'Pothole' %}
+<h3>PotHoles</h3>
+<ol>
+<li>Causes : </li>
+<ol>
+ <li>Loss of adhesion in a bituminous wearing coat due to the ingress of water into the pavement or due to higher voids in the surface.</li>
+ <li>Insufficient bitumen content in localized areas of the surfacing layer.</li>
+ <li>Lack of proper bond between the bituminous surfacing and the underlying water bound macadam base layer.</li>
+ </ol>
+</li>
+<li>Treatment:</li>
+ <ol>
+     <li>The rectification consists of filling pot-holes with open graded or dense graded premix.</li>
+ </ol>
+</ol>
+{% else %}
+<h3>Patch</h3>
+{% endif %}
